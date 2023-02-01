@@ -43,5 +43,42 @@ namespace RoomLibrary
         {
             return RoomArea() / np;
         }
+
+        public string  Info()
+        {
+            return "Комната площадью " + RoomArea() + "кв.м";
+        }
+
+        /* <summary> 
+         Класс "Живая"
+         </summary> */
+        public class LivingRoom: Room
+        {
+            int numWin;
+            public int NumWin
+            { get { return numWin; } set { numWin = value; } }
+
+            public string Info()
+            {
+                return "Жилая комната площадью " + RoomArea() + " кв.м, с " + numWin + " окнами";
+            }
+        }
+
+        public class Office : Room
+        {
+            int numSockets;
+            public int NumSockets
+            { get { return numSockets; } set { numSockets = value; } }
+
+            public int NumWorkplaces()
+            {
+                int num = Convert.ToInt32(Math.Truncate(RoomArea() / 4.5));
+                return Math.Min(numSockets, num);
+            }
+            public string Info()
+            {
+                return "Офис на " + NumWorkplaces() + " рабочих мест";
+            }
+        }
     }
 }
