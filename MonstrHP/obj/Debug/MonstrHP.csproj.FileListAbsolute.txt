@@ -1,8 +1,0 @@
-C:\Users\student\source\repos\MonstrHP\bin\Debug\MonstrHP.exe.config
-C:\Users\student\source\repos\MonstrHP\bin\Debug\MonstrHP.exe
-C:\Users\student\source\repos\MonstrHP\bin\Debug\MonstrHP.pdb
-C:\Users\student\source\repos\MonstrHP\obj\Debug\MonstrHP.csprojAssemblyReference.cache
-C:\Users\student\source\repos\MonstrHP\obj\Debug\MonstrHP.Properties.Resources.resources
-C:\Users\student\source\repos\MonstrHP\obj\Debug\MonstrHP.csproj.GenerateResource.cache
-C:\Users\student\source\repos\MonstrHP\obj\Debug\MonstrHP.exe
-C:\Users\student\source\repos\MonstrHP\obj\Debug\MonstrHP.pdb
